@@ -44,6 +44,4 @@ app.get("/", (req, res) => {
 
 // server-> http://localhost:4000
 
-app.listen(process.env.PORT, () => {
-    console.log("Server is running on port ", process.env.PORT)
-})
+module.exports = app
